@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="aa149c689b881e59d5cb845a5267bd236ffce522" source="2.16.8.t" version="1.0">
+<project integrity="2e6276fe1f29886120eb82b5cb6f7ad6b739a691" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -8655,6 +8655,7 @@ end TCL_Generic;
     <wire from="(900,730)" to="(900,740)"/>
     <wire from="(930,310)" to="(990,310)"/>
     <wire from="(1020,120)" to="(1080,120)"/>
+    <wire from="(560,160)" to="(600,160)"/>
     <wire from="(1010,330)" to="(1010,550)"/>
     <wire from="(640,950)" to="(640,980)"/>
     <wire from="(830,910)" to="(870,910)"/>
@@ -8684,6 +8685,7 @@ end TCL_Generic;
     <wire from="(1120,110)" to="(1130,110)"/>
     <wire from="(990,310)" to="(1080,310)"/>
     <wire from="(720,1010)" to="(750,1010)"/>
+    <wire from="(570,180)" to="(600,180)"/>
     <wire from="(710,690)" to="(870,690)"/>
     <wire from="(710,140)" to="(710,690)"/>
     <wire from="(250,270)" to="(270,270)"/>
@@ -9142,10 +9144,6 @@ end TCL_Generic;
       <a name="uuid" val="d46f0d8c-6c54-4c0d-ad2f-be710bb633d6"/>
       <a name="integrity" val="45e23688099cf1b88cbabcbf537d559153b11b03"/>
     </comp>
-    <comp lib="0" loc="(630,170)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="reg_bank_en_s"/>
-    </comp>
     <comp lib="0" loc="(630,210)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="3"/>
@@ -9213,6 +9211,37 @@ end TCL_Generic;
     <comp lib="0" loc="(740,820)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="link_en_s"/>
+    </comp>
+    <comp lib="1" loc="(630,170)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="18.03.24 23:06:46"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="4341e60a-a84d-47e1-8ff8-4d328628db1e"/>
+      <a name="integrity" val="46d402f93a3313121ac1fac61022e1eec9b462e8"/>
+    </comp>
+    <comp lib="0" loc="(550,190)" name="Splitter">
+      <a name="fanout" val="1"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="18.03.24 23:07:22"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="1797e95a-0742-4619-96d0-0f74f85134c3"/>
+      <a name="integrity" val="d514725a4d9111eb74ec944837e3764c1e43a7d1"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="0"/>
+    </comp>
+    <comp lib="0" loc="(550,190)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="reg_bank_control_bus"/>
+    </comp>
+    <comp lib="0" loc="(560,160)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="reg_bank_en_s"/>
+    </comp>
+    <comp lib="8" loc="(779,674)" name="Text">
+      <a name="text" val="Je ne sais pas ce qui vient ici"/>
+      <a name="font" val="SansSerif plain 12"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
