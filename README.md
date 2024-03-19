@@ -32,3 +32,12 @@ Les instructions employant un offset immédiat utilisent des opcodes à 5 bits.
 ```
 
 ```
+
+## Tableaux (pas besoin je crois mais c'est demandé de les complèter)
+
+### Etape 2.5
+|Instruction  |sel_cpsr|link_en|sel_PC|cond_en|
+|-------------|--------|-------|------|-------|
+|add_r_r_r_s  |1       |0      |0     |0      |
+|add_r_r_imm_s|1       |0      |0     |0      |
+|ldrb_r_r_r_s |0       |0      |0     |0      |
