@@ -54,4 +54,11 @@ Les instructions employant un offset immédiat utilisent des opcodes à 5 bits.
 |-------------|-----------|
 |lsl_r_r_imm_s|1          |
 |eor_r_r_s    |1          |
-|strh_r_r_r_s |0          |
+|strh_r_r_r_s |0          
+
+### Etape 2.9
+|Instruction   |sel_mem|sel_data|ldr_data|byte|
+|--------------|-------|--------|--------|----|
+|and_r_r_s     |0      |0       |0       |0   |
+|ldrh_r_r_r_s  |1      |0       |1       |0   |
+|strb_r_r_imm_s|1      |1       |0       |1   |
