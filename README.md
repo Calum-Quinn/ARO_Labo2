@@ -48,3 +48,10 @@ Les instructions employant un offset immédiat utilisent des opcodes à 5 bits.
 |add_r_r_imm_s|0        |0        |0     |0     |
 |mov_r_imm_s  |1        |0        |0     |1     |
 |ror_r_r_s    |1        |0        |1     |0     |
+
+### Etape 2.7
+|Instruction  |reg_bank_wr|
+|-------------|-----------|
+|lsl_r_r_imm_s|1          |
+|eor_r_r_s    |1          |
+|strh_r_r_r_s |0          |
