@@ -23,7 +23,9 @@ Pour l'offset c'est la sortie offset8_7_0_o.
 
 ### Question 4
 ```
+Les 4 instructions travaillant uniquement avec des registres ont un opcode de 7 bits.
 
+Les instructions employant un offset immédiat utilisent des opcodes à 5 bits.
 ```
 
 ## Etape 5.2
