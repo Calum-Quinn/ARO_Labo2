@@ -41,3 +41,10 @@ Les instructions employant un offset immédiat utilisent des opcodes à 5 bits.
 |add_r_r_r_s  |1       |0      |0     |0      |
 |add_r_r_imm_s|1       |0      |0     |0      |
 |ldrb_r_r_r_s |0       |0      |0     |0      |
+
+### Etape 2.6
+|Instruction  |sel_rs(0)|sel_rs(1)|sel_rn|sel_rd|
+|-------------|---------|---------|------|------|
+|add_r_r_imm_s|0        |0        |0     |0     |
+|mov_r_imm_s  |1        |0        |0     |1     |
+|ror_r_r_s    |1        |0        |1     |0     |
