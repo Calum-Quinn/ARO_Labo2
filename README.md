@@ -29,9 +29,21 @@ Les instructions employant un offset immédiat utilisent des opcodes à 5 bits.
 ```
 
 ## Etape 5.2
+
+### Bus de contrôle
 |Etape  |fetch_control_bus_o|decode_control_bus_o|reg_bank_control_bus_o|execute_control_bus_o|mem_control_bus_o|opcode_supported_unit|
 |-------|-------------------|--------------------|----------------------|---------------------|-----------------|---------------------|
 |STEP_1 |0x0024             |0x0011              |0x0002                |0x04d0               |0x0000           |sub_r_imm_o          |
+|STEP_3 |       |      |     |      |     |      |
+|STEP_4 |       |      |     |      |     |      |
+|STEP_7 |       |      |     |      |     |      |
+|STEP_8 |       |      |     |      |     |      |
+|STEP_10|       |      |     |      |     |      |
+
+### Registres
+|Etape  |R0    |R1    |R2    |R3    |R4    |SP    |LR    |PC    |
+|-------|------|------|------|------|------|------|------|------|
+|STEP_1 |0x0020|0x001a|0x0026|0xfff4|0x0018|0x0000|0x0000|0x0010|
 |STEP_3 |       |      |     |      |     |      |
 |STEP_4 |       |      |     |      |     |      |
 |STEP_7 |       |      |     |      |     |      |
