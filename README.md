@@ -29,9 +29,17 @@ Les instructions employant un offset immédiat utilisent des opcodes à 5 bits.
 ```
 
 ## Etape 5.2
-```
-
-```
+<style>
+.vertical-text {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+</style>
+|Etape  |<th class="vertical-text">fetch_control_bus_o</th>|decode_control_bus_o|reg_bank_control_bus_o|execute_control_bus_o|mem_control_bus_o|opcode_supported_unit|
+|-------------|--------|-------|------|-------|
+|add_r_r_r_s  |1       |0      |0     |0      |
+|add_r_r_imm_s|1       |0      |0     |0      |
+|ldrb_r_r_r_s |0       |0      |0     |0      |
 
 ## Tableaux (pas besoin je crois mais c'est demandé de les complèter)
 
