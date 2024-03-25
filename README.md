@@ -12,9 +12,8 @@ MOV r3, #40
 MOV r4, #0
 ADD r4, r1, r2
 STR r4, [r3]
-
-![Chronogram](Q1.png)
 ```
+![Chronogram](Q1.png)
 
 ### Question 2
 ```
