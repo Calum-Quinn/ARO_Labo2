@@ -42,7 +42,7 @@ Les instructions employant un offset immédiat utilisent des opcodes à 5 bits.
 | Etape   | fetch_control_bus_o | decode_control_bus_o | reg_bank_control_bus_o | execute_control_bus_o | mem_control_bus_o | opcode_supported_unit |
 | ------- | ------------------- | -------------------- | ---------------------- | --------------------- | ----------------- | --------------------- |
 | STEP_1  | 0x0024              | 0x0011               | 0x0002                 | 0x04d0                | 0x0000            | sub_r_imm_o           |
-| STEP_3  | 0x0020              | 0x0000               | 0x0002                 | 0x2088                | 0x000D            | ldrb_r_r_r            |
+| STEP_3  | 0x0020              | 0x0000               | 0x0002                 | 0x2088                | 0x000D            | ldrb_r_r_imm          |
 | STEP_4  | 0x0030              | 0x0000               | 0x0002                 | 0x2008                | 0x000D            | ldrb_r_r_r            |
 | STEP_7  | 0x0000              | 0x0000               | 0x0002                 | 0x0401                | 0x0000            | asr_r_r_imm           |
 | STEP_8  | 0x0003              | 0x0002               | 0x0000                 | 0x1088                | 0x0000            | b_cond                |
