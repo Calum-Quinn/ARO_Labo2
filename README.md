@@ -4,7 +4,16 @@
 
 ### Question 1
 ```
+Sur l'image suivante on peut voir que l'incrémentation du PC fonctionne comme prévu et que la valeur actuel reprend la valeur du PC futur d'avant.
 
+MOV r1, #5
+MOV r2, #10
+MOV r3, #40
+MOV r4, #0
+ADD r4, r1, r2
+STR r4, [r3]
+
+![Chronogram](Q1.png)
 ```
 
 ### Question 2
